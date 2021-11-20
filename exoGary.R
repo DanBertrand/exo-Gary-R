@@ -3,7 +3,7 @@ nicknames     <- "Ade/i, Do(i)lfal+Do(i)lferl"
 
 # Function take a list and a pattern to apply to all list element
 remove_pattern_in_list <- function(list, pattern) {
-  
+
   return_list <- list()
   i=1
 
@@ -43,4 +43,5 @@ change_caractere_in_string <- function(string, caractere_to_change, replacement_
 
 # Sur la string 'nicknames' on veut changer les '+' et les remplacer par une virgule et un espace ', '
 change_caractere_in_string(nicknames, '+', ', ')
+# Input: "Ade/i, Do(i)lfal+Do(i)lferl"
 # Output: "Ade/i, Do(i)lfal, Do(i)lferl"
